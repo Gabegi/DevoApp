@@ -4,6 +4,7 @@
       "commandName": "DockerCompose",
       "commandVersion": "1.0",
       "serviceActions": {
+        "catalogdb": "StartWithoutDebugging", // Use the correct service name and debugging option
         "catalog.api": "StartDebugging"
       }
     }

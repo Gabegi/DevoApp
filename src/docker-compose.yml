@@ -1,7 +1,10 @@
+version: '3.8' # Specify version
+
 services:
   catalogdb:
-    image: postgres # specify only image name
-
+    image: postgres
+    # No other details needed here; overrides will be in the override file
 
 volumes:
-  postgres_catalog:
+  postgres_catalog: # This defines the volume for PostgreSQL data
+
