@@ -13,8 +13,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BuildingBlocks", "BuildingB
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BuildingBlocks", "BuildingBlocks\BuildingBlocks\BuildingBlocks.csproj", "{DE21B138-75B2-46F1-A93A-DF39D7A5201B}"
 EndProject
-Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{53F05BFA-9E8E-40A7-952F-30CADA14599F}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,22 +22,16 @@ Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{F90CDA87-407A-4722-920C-FD54626CC5ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{F90CDA87-407A-4722-920C-FD54626CC5ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F90CDA87-407A-4722-920C-FD54626CC5ED}.NoVariablesDefault|Any CPU.ActiveCfg = Release|Any CPU
-		{F90CDA87-407A-4722-920C-FD54626CC5ED}.NoVariablesDefault|Any CPU.Build.0 = Release|Any CPU
+		{F90CDA87-407A-4722-920C-FD54626CC5ED}.NoVariablesDefault|Any CPU.ActiveCfg = Debug|Any CPU
+		{F90CDA87-407A-4722-920C-FD54626CC5ED}.NoVariablesDefault|Any CPU.Build.0 = Debug|Any CPU
 		{F90CDA87-407A-4722-920C-FD54626CC5ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F90CDA87-407A-4722-920C-FD54626CC5ED}.Release|Any CPU.Build.0 = Release|Any CPU
 		{DE21B138-75B2-46F1-A93A-DF39D7A5201B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{DE21B138-75B2-46F1-A93A-DF39D7A5201B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DE21B138-75B2-46F1-A93A-DF39D7A5201B}.NoVariablesDefault|Any CPU.ActiveCfg = Release|Any CPU
-		{DE21B138-75B2-46F1-A93A-DF39D7A5201B}.NoVariablesDefault|Any CPU.Build.0 = Release|Any CPU
+		{DE21B138-75B2-46F1-A93A-DF39D7A5201B}.NoVariablesDefault|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE21B138-75B2-46F1-A93A-DF39D7A5201B}.NoVariablesDefault|Any CPU.Build.0 = Debug|Any CPU
 		{DE21B138-75B2-46F1-A93A-DF39D7A5201B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DE21B138-75B2-46F1-A93A-DF39D7A5201B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{53F05BFA-9E8E-40A7-952F-30CADA14599F}.Debug|Any CPU.ActiveCfg = NoVariablesDefault
-		{53F05BFA-9E8E-40A7-952F-30CADA14599F}.Debug|Any CPU.Build.0 = NoVariablesDefault
-		{53F05BFA-9E8E-40A7-952F-30CADA14599F}.NoVariablesDefault|Any CPU.ActiveCfg = NoVariablesDefault
-		{53F05BFA-9E8E-40A7-952F-30CADA14599F}.NoVariablesDefault|Any CPU.Build.0 = NoVariablesDefault
-		{53F05BFA-9E8E-40A7-952F-30CADA14599F}.Release|Any CPU.ActiveCfg = NoVariablesDefault
-		{53F05BFA-9E8E-40A7-952F-30CADA14599F}.Release|Any CPU.Build.0 = NoVariablesDefault
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
